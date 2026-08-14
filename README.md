@@ -17,17 +17,17 @@ Sistema web desarrollado en Flask para registrar, consultar y administrar inform
 ```bash
 proyecto_bigdata/
 │
-├── data/
-│   ├── bancos.csv
-│   └── base.csv
+├── pycache/
+│   ├── config.cpython-314.pyc
+│
+├── controllers/
+│   └── pycache
+│   └── listar_controller.py
+│   └── persona_controller.py
 │
 ├── database/
-│   └── bancos_clean.csv
-│
-├── docs/
 │   ├── cuentas_por_tipo.png
-│   ├── distribucion_saldos.png
-│   └── promedio_saldo_sucursal.png
+│   └── connection.py
 │
 ├── scripts/
 │   ├── 1_Create_files.ipynb
